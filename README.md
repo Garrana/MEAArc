@@ -46,7 +46,7 @@ The below deployment scenarios will guide you through onboarding various Windows
 **Note: For a list of supported operating systems and Azure regions, please visit the official [Azure Arc docs](https://docs.microsoft.com/en-us/azure/azure-arc/servers/overview).**
 
 
-#### Step 1 - creating virtual machines and connecing to Azure Arc
+#### creating virtual machines and connecing to Azure Arc
 
 The following examples can be used to connect existing Windows or Linux servers to Azure with Azure Arc. Use these if you already have existing servers that you want to project into Azure. however if you don't have servers to use for the lab , you would need to create them first. as a prerequiste you will need to create a Resouce group on azure and deploy a windows and linux server in that resource group , this will mimic connecting on-premises virtual machines to azure Arc. please create both the windows and linux virtual machines before using the below links to connect the virtual machines to Azure Arc. please note that Arc currently does not support virtual machines running on azure and there is a specific script ( below ) you would need to run for you to be able to setup the Arc agent on an Azure virtual machine.
 
