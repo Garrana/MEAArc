@@ -1,8 +1,10 @@
 # MEAArc
 
+in this program partners are expected to engage with the customer and deliver the below activities 
 
 # Scope of work 
-partner to deliver with identified customer to deliver the following activities 
+partner is expected to deliver the following activities with the agreed customers  
+
 estimated time is only for guidance purposes 
 
   Deliver Hybrid Cloud Overview ( 1- Azure hybrid cloud overview )  - 120 mins
