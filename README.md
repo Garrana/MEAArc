@@ -1,6 +1,8 @@
-# MEAArc
+# MEA Arc Partners program for customers 
 
-in this program partners are expected to engage with the customer and deliver the below activities 
+MEA Arc partners program for customers is a program launched by Microsoft MEA to show the value for Azure Arc to customers.  
+the program has a specific set of activites that are delivered by qualified partners to customers.
+the below is meant to be used as a delivery guide for partners detailing the specific activites to be delivered.  
 
 # Scope of work 
 partner is expected to deliver the following activities with the agreed customers  
@@ -96,16 +98,16 @@ the below activities should be carried out in the pilot Deployment session
 
 the below activities should be carried out in the Advanced Azure Arc plan  
    1- Identifying  potential additional sites/servers , use cases and plans for Arc including but not limited to   
-         Azure Policy ( advanced )  
-         Azure Monitor  
-         Security Center  
-         Azure Sentinel  
-         Backup  
-         Log Analytics  
-         Service Map  
-         Application Insights  
-         Network Watcher    
-         Config and Change Management   
+            Azure Policy ( advanced )  
+            Azure Monitor  
+            Security Center  
+            Azure Sentinel  
+            Backup  
+            Log Analytics  
+            Service Map  
+            Application Insights  
+            Network Watcher    
+            Config and Change Management   
    2- identifying potential additional Azure hybrid services for the customer   
    3- agreeding on timelines and plan to deliver the agreed activities  
    
