@@ -1,4 +1,10 @@
-# Azure Arc overview 
+# MEA Arc Partners program for customers 
+
+MEA Arc partners program for customers is a program launched by Microsoft MEA to show the value of Azure Arc to customers.  
+the program has a specific set of activites that are delivered by qualified partners to customers.
+the below is meant to be used as a delivery guidance for partners. 
+
+## Azure Arc overview 
 
 Today, companies are struggling to control and govern an environment that becomes more and more complex. These environments extend across data centers, multiple clouds, and edge. Each environment and cloud have its own set of disjointed management tools that you need to learn and operate.
 
@@ -28,13 +34,6 @@ Run Azure data services on any Kubernetes environment, specifically Azure SQL Ma
 
 A unified experience viewing your Azure Arc enabled resources whether you are using the Azure portal, the Azure CLI, Azure PowerShell, or Azure REST API.
 
-
-
-# MEA Arc Partners program for customers 
-
-MEA Arc partners program for customers is a program launched by Microsoft MEA to show the value of Azure Arc to customers.  
-the program has a specific set of activites that are delivered by qualified partners to customers.
-the below is meant to be used as a delivery guidance for partners.    
 
 # Scope of work 
 partner is expected to deliver the following activities with the agreed customers  
