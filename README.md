@@ -41,11 +41,11 @@ partner is expected to deliver the following activities with the agreed customer
 please note : estimated time is only for guidance purposes     
 
 1- Deliver Hybrid Cloud Overview ( 1- Azure hybrid cloud overview )  - 120 mins\ 
-   2- Deliver Azure Arc Overview ( 2 – Azure Arc overview  ) - 60 mins\ 
-      3- Deliver Azure Arc Demo - 60 mins\
-   4- Pilot Planning Session – 90 mins\
-   5- Pilot Implementation (Arc Onboarding - 10-20 VMs) 12 hours  
-   6- Advanced Azure Arc Plan – 120 mins\
+2- Deliver Azure Arc Overview ( 2 – Azure Arc overview  ) - 60 mins\ 
+3- Deliver Azure Arc Demo - 60 mins\
+4- Pilot Planning Session – 90 mins\
+5- Pilot Implementation (Arc Onboarding - 10-20 VMs) 12 hours\  
+6- Advanced Azure Arc Plan – 120 mins\
 
 ### Deliver Azure Arc Demo
 
@@ -111,11 +111,12 @@ the below activities should be carried out in the pilot planning session
    2- identifying the business and technical value that would benifit the customer  
    3- Selection for specific servers to be onboarded into Arc ( 10-20 )  
    4- Selection for Arc use cases for the projected servers incuding but not limited to 
-         Organization and inventory – Search, Index, Group, Tags
-         Environments and automation – Templates, Extensions
-         Access and security –  RBAC, Subscription
-         Azure Policy ( Basic )
-         Update Management
+         
+         {      Organization and inventory – Search, Index, Group, Tags  
+                Environments and automation – Templates, Extensions  
+                Access and security –  RBAC, Subscription  
+                Azure Policy ( Basic )  
+                Update Management    }  
     
 ### Pilot deployment 
 
