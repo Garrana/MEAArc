@@ -6,10 +6,6 @@ the below is meant to be used as a delivery guidance for partners.
 
 ## Azure Arc overview 
 
-Today, companies are struggling to control and govern an environment that becomes more and more complex. These environments extend across data centers, multiple clouds, and edge. Each environment and cloud have its own set of disjointed management tools that you need to learn and operate.
-
-In parallel, new DevOps and ITOps operational models are hard to implement, as existing tools fail to provide support for new cloud native patterns.
-
 Azure Arc simplifies governance and management by delivering a consistent multi-cloud and on-premises management platform. Azure Arc enables you to manage your entire environment, with a single pane of glass, by projecting your existing resources into Azure Resource Manager. You can now manage virtual machines, Kubernetes clusters, and databases as if they are running in Azure. Regardless of where they live, you can use familiar Azure services and management capabilities. Azure Arc enables you to continue using traditional ITOps, while introducing DevOps practices to support new cloud native patterns in your environment.
 
 Today, Azure Arc allows you to manage the following resource types hosted outside of Azure:
@@ -40,12 +36,12 @@ partner is expected to deliver the following activities with the agreed customer
 
 please note : estimated time is only for guidance purposes     
 
-1- Deliver Hybrid Cloud Overview ( 1- Azure hybrid cloud overview )  - 120 mins\ 
-2- Deliver Azure Arc Overview ( 2 – Azure Arc overview  ) - 60 mins\ 
-3- Deliver Azure Arc Demo - 60 mins\
-4- Pilot Planning Session – 90 mins\
-5- Pilot Implementation (Arc Onboarding - 10-20 VMs) 12 hours\  
-6- Advanced Azure Arc Plan – 120 mins\
+1- Deliver Hybrid Cloud Overview ( Azure hybrid cloud overview )  - 120 mins  
+2- Deliver Azure Arc Overview ( Azure Arc overview  ) - 60 mins  
+3- Deliver Azure Arc Demo - 60 mins  
+4- Pilot Planning Session – 90 mins  
+5- Pilot Implementation (Arc Onboarding - 10-20 VMs) 12 hours  
+6- Advanced Azure Arc Plan – 120 mins  
 
 ### Deliver Azure Arc Demo
 
