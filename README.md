@@ -5,16 +5,16 @@ in this program partners are expected to engage with the customer and deliver th
 # Scope of work 
 partner is expected to deliver the following activities with the agreed customers  
 
-estimated time is only for guidance purposes 
+please note : estimated time is only for guidance purposes 
 
-Deliver Hybrid Cloud Overview ( 1- Azure hybrid cloud overview )  - 120 mins\
-Deliver Azure Arc Overview ( 2 – Azure Arc overview  ) - 60 mins\
-Deliver Azure Arc Demo - 60 mins\
-Pilot Planning Session – 90 mins\
-Pilot Implementation (Arc Onboarding - 10-20 VMs) 12 hours  
-Advanced Azure Arc Plan – 120 mins\
+   1- Deliver Hybrid Cloud Overview ( 1- Azure hybrid cloud overview )  - 120 mins\
+   2- Deliver Azure Arc Overview ( 2 – Azure Arc overview  ) - 60 mins\
+   3- Deliver Azure Arc Demo - 60 mins\
+   4- Pilot Planning Session – 90 mins\
+   5- Pilot Implementation (Arc Onboarding - 10-20 VMs) 12 hours  
+   6- Advanced Azure Arc Plan – 120 mins\
 
-## DEMO - Azure Arc enabled Servers
+## Deliver Azure Arc Demo
 
 the purpose of the demo is to deliver a hands on experience to the customer for on-boarding a server using Azure Arc
 
@@ -25,7 +25,7 @@ The below deployment scenarios will guide you through onboarding various Windows
 
 #### Step 1 - creating virtual machines and connecing to Azure Arc
 
-The following examples can be used to connect existing Windows or Linux servers to Azure with Azure Arc. Use these if you already have existing servers that you want to project into Azure. however if you don't have servers to use for the lab , you would need to create them first. as a prerequiste you will need to create a Resouce group on azure and deploy a windows and linux server in that resource group , this will mimic connecting on-premises virtual machines to azure Arc. please create both the windows and linux virtual machines before using the below links to connect the virtual machines to Azure Arc . 
+The following examples can be used to connect existing Windows or Linux servers to Azure with Azure Arc. Use these if you already have existing servers that you want to project into Azure. however if you don't have servers to use for the lab , you would need to create them first. as a prerequiste you will need to create a Resouce group on azure and deploy a windows and linux server in that resource group , this will mimic connecting on-premises virtual machines to azure Arc. please create both the windows and linux virtual machines before using the below links to connect the virtual machines to Azure Arc. please note that Arc currently does not support virtual machines running on azure and there is a specific script ( below ) you would need to run for you to be able to setup the Arc agent on an Azure virtual machine.
 
 ##### creating virtual machines 
 you can use the below guide to create a virtual machine on azure 
@@ -41,39 +41,24 @@ you can use the below guide to create a virtual machine on azure
 
 ##### *Windows* powershell
 
-Write-Host "Configure the OS to allow Azure Arc Agent to be deploy on an Azure VM"
-
-Set-Service WindowsAzureGuestAgent -StartupType Disabled -Verbose
-
-Stop-Service WindowsAzureGuestAgent -Force -Verbose
-
-New-NetFirewallRule -Name BlockAzureIMDS -DisplayName "Block access to Azure IMDS" -Enabled True -Profile Any -Direction Outbound -Action Block -RemoteAddress 169.254.169.254 
-
-
+Write-Host "Configure the OS to allow Azure Arc Agent to be deploy on an Azure VM"  
+Set-Service WindowsAzureGuestAgent -StartupType Disabled -Verbose  
+Stop-Service WindowsAzureGuestAgent -Force -Verbose  
+New-NetFirewallRule -Name BlockAzureIMDS -DisplayName "Block access to Azure IMDS" -Enabled True -Profile Any -Direction Outbound -Action Block -RemoteAddress 169.254.169.254   
 
 ##### *Linux* bash 
 
-echo "Configuring walinux agent"
-
-sudo service walinuxagent stop
-
-sudo waagent -deprovision -force
-
-sudo rm -rf /var/lib/waagent
-
-echo "Configuring Firewall"
-
-sudo ufw --force enable
-
-sudo ufw deny out from any to 169.254.169.254
-
-sudo apt-get update
-
-echo "Reconfiguring Hostname"
-
-sudo hostname $VMNAME
-
-sudo -E /bin/sh -c 'echo $VMNAME > /etc/hostname'
+echo "Configuring walinux agent"  
+sudo service walinuxagent stop  
+sudo waagent -deprovision -force  
+sudo rm -rf /var/lib/waagent  
+echo "Configuring Firewall"  
+sudo ufw --force enable  
+sudo ufw deny out from any to 169.254.169.254  
+sudo apt-get update  
+echo "Reconfiguring Hostname"  
+sudo hostname $VMNAME  
+sudo -E /bin/sh -c 'echo $VMNAME > /etc/hostname'  
 
 The script to automate the download and installation, and to establish the connection with Azure Arc, is available from the Azure portal. To complete the process, follow the following links:
 
@@ -86,38 +71,43 @@ The script to automate the download and installation, and to establish the conne
 
 ## Pilot planning session 
 
-the purpose of the pilot planning session is to understand the customer environment , identify selected servers to on boarded to Arc and identify specific use cases to deliver the business value for customers 
+the purpose of the pilot planning session is to understand the customer environment , identify selected servers to on boarded to Arc and identify specific use cases to deliver the identified business value for customers 
 
-  White boarding session for customer environment
-  Selection for specific servers to be onboarded into Arc ( 10-20 )
-  Selection for use cases for Arc for the projected servers  
-    Organization and inventory – Search, Index, Group, Tags
-    Environments and automation – Templates, Extensions
-    Access and security –  RBAC, Subscription
-    Azure Policy ( Basic )
-    Update Management
+the below activities should be carried out in the pilot planning session 
+   1- Whiteboarding session for the customer environment  
+   2- identifying the business and technical value that would benifit the customer  
+   3- Selection for specific servers to be onboarded into Arc ( 10-20 )  
+   4- Selection for Arc use cases for the projected servers incuding but not limited to 
+         Organization and inventory – Search, Index, Group, Tags
+         Environments and automation – Templates, Extensions
+         Access and security –  RBAC, Subscription
+         Azure Policy ( Basic )
+         Update Management
     
 ## Pilot deployment 
 
-Azure Arc agent deployment into the selected 10-20 VMs
-Verifying that the servers are projected to Azure portal
-Applying the specific agreed use cases in the pilot planning session
-Demonstrating the use cases and projected servers to the customer 
-
+the below activities should be carried out in the pilot Deployment session   
+   1- Azure Arc agent deployment into the selected 10-20 VMs  
+   2- Verifying that the servers are projected to Azure portal  
+   3- Applying the specific agreed use cases in the pilot planning session  
+   4- Demonstrating the use cases and projected servers to the customer   
 
 ## Advanced Azure Arc Plan
 
-
-Identifying  potential additional use cases and plans for Arc including 
-Azure Policy ( advanced )
-Azure Monitor
-Security Center
-Azure Sentinel
-Backup
-Log Analytics
-Service Map
-Application Insights
-Network Watcher 
-Config and Change Management
+the below activities should be carried out in the Advanced Azure Arc plan  
+   1- Identifying  potential additional sites/servers , use cases and plans for Arc including but not limited to   
+         Azure Policy ( advanced )  
+         Azure Monitor  
+         Security Center  
+         Azure Sentinel  
+         Backup  
+         Log Analytics  
+         Service Map  
+         Application Insights  
+         Network Watcher    
+         Config and Change Management   
+   2- identifying potential additional Azure hybrid services for the customer   
+   3- agreeding on timelines and plan to deliver the agreed activities  
+   
 
 
