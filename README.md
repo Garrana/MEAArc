@@ -38,11 +38,11 @@ A unified experience viewing your Azure Arc enabled resources whether you are us
 ## Scope of work 
 partner is expected to deliver the following activities with the agreed customers  
 
-please note : estimated time is only for guidance purposes 
+please note : estimated time is only for guidance purposes     
 
-   1- Deliver Hybrid Cloud Overview ( 1- Azure hybrid cloud overview )  - 120 mins\
-   2- Deliver Azure Arc Overview ( 2 – Azure Arc overview  ) - 60 mins\
-   3- Deliver Azure Arc Demo - 60 mins\
+1- Deliver Hybrid Cloud Overview ( 1- Azure hybrid cloud overview )  - 120 mins\ 
+   2- Deliver Azure Arc Overview ( 2 – Azure Arc overview  ) - 60 mins\ 
+      3- Deliver Azure Arc Demo - 60 mins\
    4- Pilot Planning Session – 90 mins\
    5- Pilot Implementation (Arc Onboarding - 10-20 VMs) 12 hours  
    6- Advanced Azure Arc Plan – 120 mins\
