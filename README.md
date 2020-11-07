@@ -10,25 +10,19 @@ Azure Arc simplifies governance and management by delivering a consistent multi-
 
 Today, Azure Arc allows you to manage the following resource types hosted outside of Azure:
 
-Servers - both physical and virtual machines running Windows or Linux.
-Kubernetes clusters - supporting multiple Kubernetes distributions.
-Azure data services - Azure SQL Database and PostgreSQL Hyperscale services.
+Servers - both physical and virtual machines running Windows or Linux.  
+Kubernetes clusters - supporting multiple Kubernetes distributions.  
+Azure data services - Azure SQL Database and PostgreSQL Hyperscale services.  
 
-Key features of Azure Arc include:
+### Key features of Azure Arc include:
 
-Implement consistent inventory, management, governance, and security for your servers across your environment.
-
-Configure Azure VM extensions to use Azure management services to monitor, secure, and update your servers.
-
-Manage and govern Kubernetes clusters at scale.
-
-Use GitOps-based configuration as code management to deploy applications and configuration across one or more clusters directly from source control, such as GitHub.
-
-Zero touch compliance and configuration for your Kubernetes clusters using Azure Policy.
-
-Run Azure data services on any Kubernetes environment, specifically Azure SQL Managed Instance and Azure Database for PostgreSQL Hyperscale, with benefits such as upgrades/updates, security, and monitoring as if it runs in Azure. Leverage elastic scale, apply updates, without any application downtime, even if it doesn't have a continuous connection to Azure.
-
-A unified experience viewing your Azure Arc enabled resources whether you are using the Azure portal, the Azure CLI, Azure PowerShell, or Azure REST API.
+1- Implement consistent inventory, management, governance, and security for your servers across your environment.  
+2- Configure Azure VM extensions to use Azure management services to monitor, secure, and update your servers.  
+3- Manage and govern Kubernetes clusters at scale.  
+4- Use GitOps-based configuration as code management to deploy applications and configuration across one or more clusters directly from source control, such as GitHub.  
+5- Zero touch compliance and configuration for your Kubernetes clusters using Azure Policy.  
+6- Run Azure data services on any Kubernetes environment, specifically Azure SQL Managed Instance and Azure Database for PostgreSQL Hyperscale, with benefits such as upgrades/updates, security, and monitoring as if it runs in Azure. Leverage elastic scale, apply updates, without any application downtime, even if it doesn't have a continuous connection to Azure.  
+7- A unified experience viewing your Azure Arc enabled resources whether you are using the Azure portal, the Azure CLI, Azure PowerShell, or Azure REST API.  
 
 
 ## Scope of work 
