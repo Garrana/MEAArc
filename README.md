@@ -115,12 +115,12 @@ the below activities should be carried out in the pilot planning session
    3- Selection for specific servers to be onboarded into Arc ( 10-20 )  
    4- Selection for Arc use cases for the projected servers incuding but not limited to 
          
-         {      Organization and inventory – Search, Index, Group, Tags  
+                Organization and inventory – Search, Index, Group, Tags  
                 Environments and automation – Templates, Extensions  
                 Access and security –  RBAC, Subscription  
                 Azure Policy ( Basic )  
-                Update Management    }  
-    
+                Update Management    
+                
 ### Pilot deployment 
 
 the below activities should be carried out in the pilot Deployment session   
