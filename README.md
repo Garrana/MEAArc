@@ -26,9 +26,7 @@ Azure data services - Azure SQL Database and PostgreSQL Hyperscale services.
 
 
 ## Scope of work 
-partner is expected to deliver the following activities with the agreed customers  
-
-please note : estimated time is only for guidance purposes     
+partners are expected to deliver the following activities with the agreed customers  
 
 1- Deliver Hybrid Cloud Overview ( Azure hybrid cloud overview )  - 120 mins  
 2- Deliver Azure Arc Overview ( Azure Arc overview  ) - 60 mins  
@@ -37,9 +35,16 @@ please note : estimated time is only for guidance purposes
 5- Pilot Implementation (Arc Onboarding - 10-20 VMs) 12 hours  
 6- Advanced Azure Arc Plan – 120 mins  
 
-### Deliver Azure Arc Demo
+please note : estimated time is only for guidance purposes 
 
-the purpose of the demo is to deliver a hands on experience to the customer for on-boarding a server using Azure Arc
+### 1- Deliver Hybird cloud overview  
+
+### 2- Deliver Azure Arc overview
+
+### 3- Deliver Azure Arc Demo
+
+The purpose of the demo is to deliver a hands on experience to the customer for on-boarding a server using Azure Arc.  
+The demo should show and end to end scenario for onboarding a vm to azure then utilizing one of Azure Arc capabilities.  
 
 The below deployment scenarios will guide you through onboarding various Windows and Linux server deployments to Azure with Azure Arc. 
 
@@ -62,7 +67,7 @@ you can use the below guide to create a virtual machine on azure
 
 **please note: that on-boarding Azure Virtual machines to Azure ARC is not supported and you would need to run the below commands to be able to setup the arc agent before attempting to setup the agent 
 
-##### *Windows* powershell
+###### *Windows* powershell
 
 ```  
 Write-Host "Configure the OS to allow Azure Arc Agent to be deploy on an Azure VM"  
@@ -71,7 +76,7 @@ Stop-Service WindowsAzureGuestAgent -Force -Verbose
 New-NetFirewallRule -Name BlockAzureIMDS -DisplayName "Block access to Azure IMDS" -Enabled True -Profile Any -Direction Outbound -Action Block -RemoteAddress 169.254.169.254 
 ```
 
-##### *Linux* bash 
+###### *Linux* bash 
 ```
 echo "Configuring walinux agent"  
 sudo service walinuxagent stop  
@@ -95,7 +100,7 @@ The script to automate the download and installation, and to establish the conne
 * [Optional : Connect an existing Windows machine to Azure Arc - Scripted method 'Additional Reference'](azure_arc_servers_jumpstart/docs/onboard_server_win.md)
 
 
-### Pilot planning session 
+### 4- Pilot planning session 
 
 the purpose of the pilot planning session is to understand the customer environment , identify selected servers to on boarded to Arc and identify specific use cases to deliver the identified business value for customers 
 
@@ -111,7 +116,7 @@ the below activities should be carried out in the pilot planning session
           Azure Policy ( Basic )  
           Update Management    
                 
-### Pilot deployment 
+### 5- Pilot deployment 
 
 the below activities should be carried out in the pilot Deployment session   
    1- Azure Arc agent deployment into the selected 10-20 VMs  
@@ -119,7 +124,7 @@ the below activities should be carried out in the pilot Deployment session
    3- Applying the specific agreed use cases in the pilot planning session  
    4- Demonstrating the use cases and projected servers to the customer   
 
-### Advanced Azure Arc Plan
+### 6- Advanced Azure Arc Plan
 
 the below activities should be carried out in the Advanced Azure Arc plan  
    1- Identifying  potential additional sites/servers , use cases and plans for Arc including but not limited to    
