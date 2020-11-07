@@ -35,7 +35,7 @@ Run Azure data services on any Kubernetes environment, specifically Azure SQL Ma
 A unified experience viewing your Azure Arc enabled resources whether you are using the Azure portal, the Azure CLI, Azure PowerShell, or Azure REST API.
 
 
-# Scope of work 
+## Scope of work 
 partner is expected to deliver the following activities with the agreed customers  
 
 please note : estimated time is only for guidance purposes 
@@ -47,7 +47,7 @@ please note : estimated time is only for guidance purposes
    5- Pilot Implementation (Arc Onboarding - 10-20 VMs) 12 hours  
    6- Advanced Azure Arc Plan – 120 mins\
 
-## Deliver Azure Arc Demo
+### Deliver Azure Arc Demo
 
 the purpose of the demo is to deliver a hands on experience to the customer for on-boarding a server using Azure Arc
 
@@ -102,7 +102,7 @@ The script to automate the download and installation, and to establish the conne
 * [Optional : Connect an existing Windows machine to Azure Arc - Scripted method 'Additional Reference'](azure_arc_servers_jumpstart/docs/onboard_server_win.md)
 
 
-## Pilot planning session 
+### Pilot planning session 
 
 the purpose of the pilot planning session is to understand the customer environment , identify selected servers to on boarded to Arc and identify specific use cases to deliver the identified business value for customers 
 
@@ -117,7 +117,7 @@ the below activities should be carried out in the pilot planning session
          Azure Policy ( Basic )
          Update Management
     
-## Pilot deployment 
+### Pilot deployment 
 
 the below activities should be carried out in the pilot Deployment session   
    1- Azure Arc agent deployment into the selected 10-20 VMs  
@@ -125,7 +125,7 @@ the below activities should be carried out in the pilot Deployment session
    3- Applying the specific agreed use cases in the pilot planning session  
    4- Demonstrating the use cases and projected servers to the customer   
 
-## Advanced Azure Arc Plan
+### Advanced Azure Arc Plan
 
 the below activities should be carried out in the Advanced Azure Arc plan  
    1- Identifying  potential additional sites/servers , use cases and plans for Arc including but not limited to   
