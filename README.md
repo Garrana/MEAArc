@@ -115,11 +115,11 @@ the below activities should be carried out in the pilot planning session
    3- Selection for specific servers to be onboarded into Arc ( 10-20 )  
    4- Selection for Arc use cases for the projected servers incuding but not limited to 
          
-                Organization and inventory – Search, Index, Group, Tags  
-                Environments and automation – Templates, Extensions  
-                Access and security –  RBAC, Subscription  
-                Azure Policy ( Basic )  
-                Update Management    
+          Organization and inventory – Search, Index, Group, Tags  
+          Environments and automation – Templates, Extensions  
+          Access and security –  RBAC, Subscription  
+          Azure Policy ( Basic )  
+          Update Management    
                 
 ### Pilot deployment 
 
@@ -132,7 +132,8 @@ the below activities should be carried out in the pilot Deployment session
 ### Advanced Azure Arc Plan
 
 the below activities should be carried out in the Advanced Azure Arc plan  
-   1- Identifying  potential additional sites/servers , use cases and plans for Arc including but not limited to   
+   1- Identifying  potential additional sites/servers , use cases and plans for Arc including but not limited to    
+           
             Azure Policy ( advanced )  
             Azure Monitor  
             Security Center  
@@ -143,6 +144,8 @@ the below activities should be carried out in the Advanced Azure Arc plan
             Application Insights  
             Network Watcher    
             Config and Change Management   
+            
+            
    2- identifying potential additional Azure hybrid services for the customer   
    3- agreeding on timelines and plan to deliver the agreed activities  
    
