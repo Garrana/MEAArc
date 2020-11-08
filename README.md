@@ -31,7 +31,7 @@ Azure data services - Azure SQL Database and PostgreSQL Hyperscale services.
 partners are expected to deliver the following activities with the agreed customers  
 
 1- Deliver Hybrid Cloud Overview ( Azure hybrid cloud overview )  - 2 hours  
-2- Deliver Azure Arc Overview ( Azure Arc overview  ) - 1 hour
+2- Deliver Azure Arc Overview ( Azure Arc overview  ) - 1 hour  
 3- Deliver Azure Arc Demo - 1 hour   
 4- Pilot Planning Session – 1.5 hours   
 5- Pilot Implementation (Arc Onboarding - 5+ Servers ) 6 hours  
