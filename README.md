@@ -134,7 +134,7 @@ the below activities should be carried out in the pilot Deployment session
    3- Applying the specific agreed use cases in the pilot planning session.  
    4- Demonstrating the use cases and projected servers to the customer.  
    
-* [Microsoft Arc offial documentation] (https://docs.microsoft.com/en-us/azure/azure-arc/) should be used as deployment guide for the agreed specific use cases, however you can also utilize the * [Azure Arc jumpstart] (https://github.com/microsoft/azure_arc) . The jumpstart does not focus on deployment best practices but rather provide a guide into building a demo environment for different use cases. It provides a walk through the process of setting up demos that show how to get started with Azure Arc. They are designed with a "zero to hero" approach in mind and with as much automation as possible. The goal of the jumpstart is to provide a working Azure Arc demo environment spun up in no time so you can focus on showing the core values of the solution.
+* [Microsoft Arc offial documentation](https://docs.microsoft.com/en-us/azure/azure-arc/) should be used as deployment guide for the agreed specific use cases, however you can also utilize the * [Azure Arc jumpstart](https://github.com/microsoft/azure_arc) . The jumpstart does not focus on deployment best practices but rather provide a guide into building a demo environment for different use cases. It provides a walk through the process of setting up demos that show how to get started with Azure Arc. They are designed with a "zero to hero" approach in mind and with as much automation as possible. The goal of the jumpstart is to provide a working Azure Arc demo environment spun up in no time so you can focus on showing the core values of the solution.
 
 
 
