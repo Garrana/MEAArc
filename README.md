@@ -28,18 +28,22 @@ Azure data services - Azure SQL Database and PostgreSQL Hyperscale services.
 ## Scope of work 
 partners are expected to deliver the following activities with the agreed customers  
 
-1- Deliver Hybrid Cloud Overview ( Azure hybrid cloud overview )  - 120 mins  
-2- Deliver Azure Arc Overview ( Azure Arc overview  ) - 60 mins  
-3- Deliver Azure Arc Demo - 60 mins  
-4- Pilot Planning Session – 90 mins  
-5- Pilot Implementation (Arc Onboarding - 10-20 VMs) 12 hours  
-6- Advanced Azure Arc Plan – 120 mins  
+1- Deliver Hybrid Cloud Overview ( Azure hybrid cloud overview )  - 2 hours
+2- Deliver Azure Arc Overview ( Azure Arc overview  ) - 1 hour
+3- Deliver Azure Arc Demo - 1 hour 
+4- Pilot Planning Session – 1.5 hours   
+5- Pilot Implementation (Arc Onboarding - 5+ Servers ) 6 hours  
+6- Future plans – 2 hours 
 
 please note : estimated time is only for guidance purposes 
 
 ### 1- Deliver Hybird cloud overview  
 
+The purpose of this session is to illustrate microsofy hybrid cloud strategy and vision to the customer and identify potential services that could benifit the customer. These identified services can be scheduled to discuss in more details in future engagements in the future plans session at the end of the workshop
+
 ### 2- Deliver Azure Arc overview
+
+The purpose of this session is to discuss in details Azure Arc Value , features , architecture and roadmap and identify specific Arc use cases that would bring value to the customer
 
 ### 3- Deliver Azure Arc Demo
 
@@ -107,7 +111,7 @@ the purpose of the pilot planning session is to understand the customer environm
 the below activities should be carried out in the pilot planning session 
    1- Whiteboarding session for the customer environment  
    2- identifying the business and technical value that would benifit the customer  
-   3- Selection for specific servers to be onboarded into Arc ( 10-20 )  
+   3- Selection for specific servers to be onboarded into Arc ( 5+ Servers  )  
    4- Selection for Arc use cases for the projected servers incuding but not limited to 
          
           Organization and inventory – Search, Index, Group, Tags  
@@ -119,15 +123,15 @@ the below activities should be carried out in the pilot planning session
 ### 5- Pilot deployment 
 
 the below activities should be carried out in the pilot Deployment session   
-   1- Azure Arc agent deployment into the selected 10-20 VMs  
+   1- Azure Arc agent deployment into the selected 5+ Servers. Servers can be Virtual or Phyiscal machines from the supported OS list 
    2- Verifying that the servers are projected to Azure portal  
    3- Applying the specific agreed use cases in the pilot planning session  
    4- Demonstrating the use cases and projected servers to the customer   
 
-### 6- Advanced Azure Arc Plan
+### 6- Future Plans
 
 the below activities should be carried out in the Advanced Azure Arc plan  
-   1- Identifying  potential additional sites/servers , use cases and plans for Arc including but not limited to    
+   1- Identifying  potential additional sites/servers, use cases and plans for Arc including but not limited to    
            
             Azure Policy ( advanced )  
             Azure Monitor  
@@ -139,9 +143,8 @@ the below activities should be carried out in the Advanced Azure Arc plan
             Application Insights  
             Network Watcher    
             Config and Change Management   
-            
-            
-   2- identifying potential additional Azure hybrid services for the customer   
+                     
+   2- identifying potential additional Azure hybrid services for the customer from session 1  
    3- agreeding on timelines and plan to deliver the agreed activities  
    
 
