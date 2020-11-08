@@ -2,7 +2,9 @@
 
 MEA Arc partners program for customers is a program launched by Microsoft MEA to show the value of Azure Arc to customers.  
 the program has a specific set of activites that are delivered by qualified partners to customers.
-the below is meant to be used as a delivery guidance for partners. 
+the below is meant to be used as a delivery guidance for partners.
+
+Disclaimer: The intention for this repo is to focus on the core Azure Arc capabilities, deployment scenarios, use-cases and ease of use. It does not focus on Azure best-practices or the other tech and OSS projects being leveraged in the guides and code.
 
 ## Azure Arc overview 
 
@@ -123,10 +125,13 @@ the below activities should be carried out in the pilot planning session
 ### 5- Pilot deployment 
 
 the below activities should be carried out in the pilot Deployment session   
-   1- Azure Arc agent deployment into the selected 5+ Servers. Servers can be Virtual or Phyiscal machines from the supported OS list 
-   2- Verifying that the servers are projected to Azure portal  
-   3- Applying the specific agreed use cases in the pilot planning session  
-   4- Demonstrating the use cases and projected servers to the customer   
+   1- Azure Arc agent deployment into the selected 5+ Servers which can be Virtual or Phyiscal machines from the supported OS list.   
+   2- Verifying that the servers are projected to Azure portal.  
+   3- Applying the specific agreed use cases in the pilot planning session.  
+   4- Demonstrating the use cases and projected servers to the customer.  
+   
+ you can use the Azure Arc jumpstart as guidance into deploying the agreed specific used cases https://github.com/microsoft/azure_arc
+it provides a walk through the process of setting up demos that show how to get started with Azure Arc. They are designed with a "zero to hero" approach in mind and with as much automation as possible. The goal is for you to have a working Azure Arc demo environment spun up in no time so you can focus on showing the core values of the solution.
 
 ### 6- Future Plans
 
