@@ -32,7 +32,7 @@ partners are expected to deliver the following activities with the agreed custom
 
 1- Deliver Hybrid Cloud Overview ( Azure hybrid cloud overview )  - 2 hours  
 2- Deliver Azure Arc Overview ( Azure Arc overview  ) - 1 hour
-3- Deliver Azure Arc Demo - 1 hour 
+3- Deliver Azure Arc Demo - 1 hour   
 4- Pilot Planning Session – 1.5 hours   
 5- Pilot Implementation (Arc Onboarding - 5+ Servers ) 6 hours  
 6- Future plans – 2 hours 
@@ -130,8 +130,9 @@ the below activities should be carried out in the pilot Deployment session
    3- Applying the specific agreed use cases in the pilot planning session.  
    4- Demonstrating the use cases and projected servers to the customer.  
    
- you can use the Azure Arc jumpstart as guidance into deploying the agreed specific used cases https://github.com/microsoft/azure_arc
-it provides a walk through the process of setting up demos that show how to get started with Azure Arc. They are designed with a "zero to hero" approach in mind and with as much automation as possible. The goal is for you to have a working Azure Arc demo environment spun up in no time so you can focus on showing the core values of the solution.
+.[Microsoft Arc offial documentation] (https://docs.microsoft.com/en-us/azure/azure-arc/) should be used as deployment guide for the agreed specific use cases, however you can also utilize the [Azure Arc jumpstart] (https://github.com/microsoft/azure_arc) . The jumpstart does not focus on deployment best practices but rather provide a guide into building a demo environment for different use cases. It provides a walk through the process of setting up demos that show how to get started with Azure Arc. They are designed with a "zero to hero" approach in mind and with as much automation as possible. The goal of the jumpstart is to provide a working Azure Arc demo environment spun up in no time so you can focus on showing the core values of the solution.
+
+
 
 ### 6- Future Plans
 
