@@ -43,14 +43,14 @@ please note : estimated time is only for guidance purposes
 
 The purpose of this session is to illustrate microsofy hybrid cloud strategy and vision to the customer and identify potential services that could benifit the customer. These identified services can be scheduled to discuss in more details in future engagements in the future plans session at the end of the workshop
 
-please download the presentaion slide deck from here [Download slides](https://arccontent.blob.core.windows.net/slides/1- Azure_Hybrid_Cloud_overview.pptx)
+please download the presentaion slide deck [here](https://arccontent.blob.core.windows.net/slides/1-Azure_Hybrid_Cloud_overview.pptx)
 
 
 ### 2- Deliver Azure Arc overview
 
 The purpose of this session is to discuss in details Azure Arc Value , features , architecture and roadmap and identify specific Arc use cases that would bring value to the customer.
 
-please download the presentaion slide deck from here [Download slides](https://arccontent.blob.core.windows.net/slides/2-Azure_Arc_Overview.pptx)
+please download the presentaion slide deck [here](https://arccontent.blob.core.windows.net/slides/2-Azure_Arc_Overview.pptx)
 
 ### 3- Deliver Azure Arc Demo
 
