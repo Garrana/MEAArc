@@ -76,7 +76,7 @@ you can use the below guide to create a virtual machine on azure
 ##### connecting the virtual machines to Azure Arc
 
 
-**please note: that on-boarding Azure Virtual machines to Azure ARC is not supported and you would need to run the below commands to be able to setup the arc agent before attempting to setup the agent 
+**please note: that on-boarding Azure Virtual machines to Azure ARC is not supported and you would need to run the below commands to be able to setup the arc agent before attempting to agent installation
 
 ###### *Windows* powershell
 
