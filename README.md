@@ -4,7 +4,7 @@ MEA Arc partners program for customers is a program launched by Microsoft MEA to
 the program has a specific set of activites that are delivered by qualified partners to customers.
 the below is meant to be used as a delivery guidance for partners.
 
-Disclaimer: The intention for this repo is to focus on the core Azure Arc capabilities, deployment scenarios, use-cases and ease of use. It does not focus on Azure best-practices or the other tech and OSS projects being leveraged in the guides and code.
+Disclaimer: The intention for this repo is to focus on the core Azure Arc capabilities, deployment scenarios, use-cases and ease of use. It does not focus on Azure best-practices or the other technology and OSS projects being leveraged in the guides and code.
 
 ## Azure Arc overview 
 
@@ -34,14 +34,14 @@ partners are expected to deliver the following activities with the agreed custom
 2- Deliver Azure Arc Overview ( Azure Arc overview  ) - 1 hour  
 3- Deliver Azure Arc Demo - 1 hour   
 4- Pilot Planning Session – 1.5 hours   
-5- Pilot Implementation (Arc Onboarding - 5+ Servers ) 6 hours  
+5- Pilot Implementation (Arc Onboarding and use cases deployment - 5+ Servers ) 6 hours  
 6- Future plans – 2 hours 
 
-please note : estimated time is only for guidance purposes 
+please note : estimated time is only for guidance purpose. customer requirements and priotiries comes first in time allocation
 
 ### 1- Deliver Hybird cloud overview  
 
-The purpose of this session is to illustrate microsofy hybrid cloud strategy and vision to the customer and identify potential services that could benifit the customer. These identified services can be scheduled to discuss in more details in future engagements in the future plans session at the end of the workshop . please keep the discussion interactive with the customer to identify potential azure hybrid services of interest as you would need to build a plan for deploying these services with the customer in the last day 
+The purpose of this session is to illustrate microsofy hybrid cloud strategy and vision to the customer and identify potential services that could benifit the customer. These identified services would be discussed in the future plans session at the end of the workshop . please keep the discussion interactive with the customer to identify potential azure hybrid services of interest as you would need to build a plan for deploying these services with the customer in the last day. 
 
 please download the presentaion slide deck [here](https://arccontent.blob.core.windows.net/slides/1-Azure_Hybrid_Cloud_overview.pptx)
 
@@ -55,7 +55,7 @@ please download the presentaion slide deck [here](https://arccontent.blob.core.w
 ### 3- Deliver Azure Arc Demo
 
 The purpose of the demo is to deliver a hands on experience to the customer for on-boarding a server using Azure Arc.  
-The demo should show and end to end scenario for onboarding a vm to azure then utilizing one of Azure Arc capabilities.  
+The demo should show an end to end scenario for onboarding a vm to azure then utilizing one of Azure Arc capabilities.  
 
 The below deployment scenarios will guide you through onboarding various Windows and Linux server deployments to Azure with Azure Arc. 
 
@@ -64,7 +64,7 @@ The below deployment scenarios will guide you through onboarding various Windows
 
 #### creating virtual machines and connecing to Azure Arc
 
-The following examples can be used to connect existing Windows or Linux servers to Azure with Azure Arc. Use these if you already have existing servers that you want to project into Azure. however if you don't have servers to use for the lab , you would need to create them first. as a prerequiste you will need to create a Resouce group on azure and deploy a windows and linux server in that resource group , this will mimic connecting on-premises virtual machines to azure Arc. please create both the windows and linux virtual machines before using the below links to connect the virtual machines to Azure Arc. please note that Arc currently does not support virtual machines running on azure and there is a specific script ( below ) you would need to run for you to be able to setup the Arc agent on an Azure virtual machine.
+The following examples can be used to connect existing Windows or Linux servers to Azure with Azure Arc. Use these if you already have existing servers that you want to project into Azure. however if you don't have any servers to use for the lab , you would need to create a server first. you will need to create a Resouce group on azure and deploy a windows and linux server in that resource group , this will mimic connecting on-premises virtual machines to azure Arc. please create either the windows and linux virtual machines before using the below links to connect the virtual machines to Azure Arc. please note that Arc currently does not support virtual machines running on azure and there is a specific script ( below ) you would need to run for you to be able to setup the Arc agent on an Azure virtual machine. it's stronly recommended to connect non Azure Virtual machines to Arc in that section.
 
 ##### creating virtual machines 
 you can use the below guide to create a virtual machine on azure 
@@ -76,7 +76,8 @@ you can use the below guide to create a virtual machine on azure
 ##### connecting the virtual machines to Azure Arc
 
 
-**please note: that on-boarding Azure Virtual machines to Azure ARC is not supported and you would need to run the below commands to be able to setup the arc agent before attempting to agent installation
+**please note: that on-boarding Azure Virtual machines to Azure ARC is not supported and you would need to run the below commands to be able to setup the arc agent before attempting to agent installation . 
+If you are onboarding a Non Azure Virtual machines to Azure Arc you don't need to run the below Powershell or bash scripts and can directly deploy the agent following the documentation here * [Recommended : Connect an existing Windows and linux server to Azure Arc using scripted and manual method](https://docs.microsoft.com/en-us/azure/azure-arc/servers/onboard-portal)   
 
 ###### *Windows* powershell
 
