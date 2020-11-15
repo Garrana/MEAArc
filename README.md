@@ -146,9 +146,9 @@ the below activities should be carried out in the pilot planning session
 the below activities should be carried out in the pilot Deployment session  
    1- Azure Arc agent deployment to the selected 5+ Servers which can be Virtual or Phyiscal machines from the supported OS list.   
    2- Verifying that the servers are projected to Azure portal.  
-   3- Deployment of the specific core Azure Arc use cases indetified in the pilot planning session
-   3- optional deployment of the specific optional use cases identified in the pilot planning session including deployment of additional         agents if required.   
-   4- Demonstration of the use cases and projected servers to the customer.  
+   3- Deployment of the specific core Azure Arc use cases indetified in the pilot planning session.    
+   4- optional deployment of the specific optional use cases identified in the pilot planning session including deployment of additional         agents if required.   
+   5- Demonstration of the use cases and projected servers to the customer.  
    
 [Microsoft Arc offial documentation](https://docs.microsoft.com/en-us/azure/azure-arc/) should be used as deployment guide for the agreed specific use cases, however you can also utilize the [Azure Arc jumpstart](https://github.com/microsoft/azure_arc) . The jumpstart does not focus on deployment best practices but rather provide a guide into building a demo environment for different use cases. It provides a walk through the process of setting up demos that show how to get started with Azure Arc. They are designed with a "zero to hero" approach in mind and with as much automation as possible. The goal of the jumpstart is to provide a working Azure Arc demo nvironment spun up in no time so you can focus on showing the core values of the solution.
 
@@ -158,8 +158,8 @@ the below activities should be carried out in the pilot Deployment session
 
 the below activities should be carried out in the Advanced Azure Arc plan  
 
-   1- Identifying  potential additional sites or servers for Arc deployment
-   2- Identifying  potential additional use cases and plans including but not limited to    
+   1- Identifying  potential additional sites or servers for Arc deployment.  
+   2- Identifying  potential additional use cases and plans including but not limited to      
            
             Azure Arc enables Data services
             Azure Arc enabled kubernetes 
