@@ -143,7 +143,7 @@ the below activities should be carried out in the pilot planning session
                 
 ### 5- Pilot deployment 
 
-the below activities should be carried out in the pilot Deployment session   
+the below activities should be carried out in the pilot Deployment session  
    1- Azure Arc agent deployment to the selected 5+ Servers which can be Virtual or Phyiscal machines from the supported OS list.   
    2- Verifying that the servers are projected to Azure portal.  
    3- Applying the specific agreed use cases in the pilot planning session including deployment of additional agents if required. 
@@ -157,8 +157,8 @@ the below activities should be carried out in the pilot Deployment session
 
 the below activities should be carried out in the Advanced Azure Arc plan  
 
-   1- Identifying  potential additional sites/server for deployment
-   1- Identifying  potential additional use cases and plans for Arc including but not limited to    
+   1- Identifying  potential additional sites or servers for Arc deployment
+   2- Identifying  potential additional use cases and plans for Arc including but not limited to    
            
             Azure Arc enables Data services
             Azure Arc enabled kubernetes 
@@ -173,8 +173,8 @@ the below activities should be carried out in the Advanced Azure Arc plan
             Network Watcher    
             Config and Change Management   
                      
-   2- lisitng potential additional Azure hybrid services for the customer identified from the "Hybrid cloud overview" session 
-   3- agreeding on timelines and plan to deliver the agreed activities  
+   3- lisitng potential additional Azure hybrid services for the customer identified from the "Hybrid cloud overview" session 
+   4- agreeding on timelines and plan to deliver the agreed identified solutions   
    
 
 
