@@ -41,7 +41,7 @@ please note : estimated time is only for guidance purposes
 
 ### 1- Deliver Hybird cloud overview  
 
-The purpose of this session is to illustrate microsofy hybrid cloud strategy and vision to the customer and identify potential services that could benifit the customer. These identified services can be scheduled to discuss in more details in future engagements in the future plans session at the end of the workshop
+The purpose of this session is to illustrate microsofy hybrid cloud strategy and vision to the customer and identify potential services that could benifit the customer. These identified services can be scheduled to discuss in more details in future engagements in the future plans session at the end of the workshop . please keep the discussion interactive with the customer to identify potential azure hybrid services of interest as you would need to build a plan for deploying these services with the customer in the last day 
 
 please download the presentaion slide deck [here](https://arccontent.blob.core.windows.net/slides/1-Azure_Hybrid_Cloud_overview.pptx)
 
@@ -113,9 +113,9 @@ The script to automate the download and installation, and to establish the conne
 
 ### 4- Pilot planning session 
 
-the purpose of the pilot planning session is to understand the customer environment , identify selected servers to on boarded to Arc and identify specific use cases to deliver the identified business value for customers 
+the purpose of the pilot planning session is to understand the customer environment , identify selected servers to on boarded to Arc and identify specific use cases to deliver the agreed business value for customers 
 
-the below activities should be carried out in the pilot planning session 
+the below activities should be carried out in the pilot planning session  
    1- Whiteboarding session for the customer environment  
    2- identifying the business and technical value that would benifit the customer  
    3- Selection for specific servers to be onboarded into Arc ( 5+ Servers  )  
@@ -126,25 +126,42 @@ the below activities should be carried out in the pilot planning session
           Access and security –  RBAC, Subscription  
           Azure Policy ( Basic )  
           Update Management    
+          
+   5- Identifying potential additional use cases for the on-boarded servers including but not limited to
+           
+          Azure Policy ( advanced )  
+          Azure Monitor  
+          Security Center  
+          Azure Sentinel  
+          Backup  
+          Log Analytics  
+          Service Map  
+          Application Insights  
+          Network Watcher    
+          Config and Change Management   
                 
 ### 5- Pilot deployment 
 
 the below activities should be carried out in the pilot Deployment session   
-   1- Azure Arc agent deployment into the selected 5+ Servers which can be Virtual or Phyiscal machines from the supported OS list.   
+   1- Azure Arc agent deployment to the selected 5+ Servers which can be Virtual or Phyiscal machines from the supported OS list.   
    2- Verifying that the servers are projected to Azure portal.  
-   3- Applying the specific agreed use cases in the pilot planning session.  
+   3- Applying the specific agreed use cases in the pilot planning session including deployment of additional agents if required. 
    4- Demonstrating the use cases and projected servers to the customer.  
    
-[Microsoft Arc offial documentation](https://docs.microsoft.com/en-us/azure/azure-arc/) should be used as deployment guide for the agreed specific use cases, however you can also utilize the [Azure Arc jumpstart](https://github.com/microsoft/azure_arc) . The jumpstart does not focus on deployment best practices but rather provide a guide into building a demo environment for different use cases. It provides a walk through the process of setting up demos that show how to get started with Azure Arc. They are designed with a "zero to hero" approach in mind and with as much automation as possible. The goal of the jumpstart is to provide a working Azure Arc demo environment spun up in no time so you can focus on showing the core values of the solution.
+[Microsoft Arc offial documentation](https://docs.microsoft.com/en-us/azure/azure-arc/) should be used as deployment guide for the agreed specific use cases, however you can also utilize the [Azure Arc jumpstart](https://github.com/microsoft/azure_arc) . The jumpstart does not focus on deployment best practices but rather provide a guide into building a demo environment for different use cases. It provides a walk through the process of setting up demos that show how to get started with Azure Arc. They are designed with a "zero to hero" approach in mind and with as much automation as possible. The goal of the jumpstart is to provide a working Azure Arc demo nvironment spun up in no time so you can focus on showing the core values of the solution.
 
 
 
 ### 6- Future Plans
 
 the below activities should be carried out in the Advanced Azure Arc plan  
-   1- Identifying  potential additional sites/servers, use cases and plans for Arc including but not limited to    
+
+   1- Identifying  potential additional sites/server for deployment
+   1- Identifying  potential additional use cases and plans for Arc including but not limited to    
            
-            Azure Policy ( advanced )  
+            Azure Arc enables Data services
+            Azure Arc enabled kubernetes 
+            Azure Arc enabled servers additional usecases   
             Azure Monitor  
             Security Center  
             Azure Sentinel  
@@ -155,7 +172,7 @@ the below activities should be carried out in the Advanced Azure Arc plan
             Network Watcher    
             Config and Change Management   
                      
-   2- identifying potential additional Azure hybrid services for the customer from session 1  
+   2- lisitng potential additional Azure hybrid services for the customer identified from the "Hybrid cloud overview" session 
    3- agreeding on timelines and plan to deliver the agreed activities  
    
 
