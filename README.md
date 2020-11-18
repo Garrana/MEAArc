@@ -162,7 +162,7 @@ the below activities should be carried out in the Advanced Azure Arc plan
    1- Identifying  potential additional sites or servers for Arc deployment.  
    2- Identifying  potential additional use cases and plans including but not limited to      
            
-            Azure Arc enables Data services
+            Azure Arc enabled Data services
             Azure Arc enabled kubernetes 
             Azure Arc enabled servers additional usecases   
             Azure Monitor  
