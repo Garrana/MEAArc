@@ -51,7 +51,7 @@ please download the presentaion slide deck [here](https://arccontent.blob.core.w
 The purpose of this session is to discuss in details Azure Arc Value , features , architecture and roadmap and identify specific Arc use cases that would bring value to the customer.
 
 please download the presentaion slide deck [here](https://arccontent.blob.core.windows.net/slides/2-Azure_Arc_Overview.pptx)  
-**please note : slides ( 49,50,51,52,53,78,79,80,81,82,83,84 ) are for partners to understand the business oppourtunity for Azure Arc. they would be irrelevant in the customer presentation and should not be presented. 
+please note : slides ( 49,50,51,52,53,78,79,80,81,82,83,84 ) are for partners to understand the business oppourtunity for Azure Arc. they would be irrelevant in the customer presentation and should not be presented. 
 
 ### 3- Deliver Azure Arc Demo
 
