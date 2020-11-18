@@ -175,7 +175,7 @@ the below activities should be carried out in the Advanced Azure Arc plan
             Network Watcher    
             Config and Change Management   
                      
-   3- lisitng potential additional Azure hybrid services for the customer identified from the "Hybrid cloud overview" session 
+   3- lisitng potential additional Azure hybrid services for the customer identified from the "Hybrid cloud overview" session  
    4- agreeding on timelines and plan to deliver the agreed identified solutions   
    
 
