@@ -99,9 +99,6 @@ echo "Configuring Firewall"
 sudo ufw --force enable  
 sudo ufw deny out from any to 169.254.169.254  
 sudo apt-get update  
-echo "Reconfiguring Hostname"  
-sudo hostname $VMNAME  
-sudo -E /bin/sh -c 'echo $VMNAME > /etc/hostname'  
 ```
 
 The script to automate the download and installation, and to establish the connection with Azure Arc, is available from the Azure portal. To complete the process, follow the following links:
