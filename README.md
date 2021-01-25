@@ -1,4 +1,4 @@
-# MEA Arc Partners program for customers [ DRAFT ] 
+# MEA Arc Partners program for customers
 
 MEA Arc partners program for customers is a program launched by Microsoft MEA to show the value of Microsoft hybrid cloud and Azure Arc to customers.  
 the program has a specific set of activites that are delivered by qualified partners to customers.
